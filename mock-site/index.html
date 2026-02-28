@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>架空企業サイト | ホーム</title>
+  <meta name="description" content="架空のコーポレートサイト。更新運用サポート案件の実務デモとして作成。">
+  <meta property="og:title" content="架空企業サイト | ホーム">
+  <meta property="og:description" content="更新運用サポート案件のデモサイトです。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container header__inner">
+    <a class="logo" href="index.html">SAMPLE CORPORATE</a>
+    <nav aria-label="グローバルナビ">
+      <button type="button" class="nav__toggle" data-nav-toggle aria-expanded="false" aria-controls="global-nav">メニュー</button>
+      <ul class="nav__list" id="global-nav" data-nav-list>
+        <li><a class="nav__link" href="index.html" aria-current="page">Home</a></li>
+        <li><a class="nav__link" href="company.html">Company</a></li>
+        <li><a class="nav__link" href="service.html">Service</a></li>
+        <li><a class="nav__link" href="news.html">News</a></li>
+        <li><a class="nav__link" href="contact.html">Contact</a></li>
+        <li><a class="nav__link" href="recruit.html">Recruit</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="main container">
+  <nav class="breadcrumb" aria-label="パンくず"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Home</li></ol></nav>
+  <section class="hero">
+    <h1>企業サイト更新デモ</h1>
+    <p>このサイトは「既存サイト更新サポート」案件を具体化するためのモックです。依頼チケットに沿って更新が入る前提で、運用しやすい構造で作成しています。</p>
+  </section>
+  <section class="section">
+    <h2>主要導線</h2>
+    <div class="grid grid--3">
+      <article class="card"><h3>お知らせ</h3><p>最新情報はNewsに集約し、更新頻度が高い前提で一覧設計。</p></article>
+      <article class="card"><h3>サービス</h3><p>表組みを使い、プランや仕様の差し替えに対応しやすくしています。</p></article>
+      <article class="card"><h3>お問い合わせ</h3><p>フォーム導線とアクセシビリティを優先した最小実装です。</p></article>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="container"><p>© <span data-year></span> Sample Corporate Inc.</p></div></footer>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

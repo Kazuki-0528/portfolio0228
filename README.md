@@ -73,4 +73,3 @@ python3 -m http.server 8000
 - `works/lp-markup.html`：短納期LPマークアップ案件の対応プロセス。
 - `process.html`：更新フロー・報告テンプレート・コミュニケーション方針。
 - `checklist.html`：ブラウザ、リグレッション、アクセシビリティの確認項目。
-
