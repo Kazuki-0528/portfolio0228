@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>更新フロー | HTMLコーディング／Web更新サポート ポートフォリオ</title>
+  <meta name="description" content="更新依頼受付から実装、検証、報告までの実務フローと報告テンプレートを掲載しています。">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="l-container site-header__inner">
+      <a class="site-logo" href="index.html">更新運用ポートフォリオ</a>
+      <nav class="site-nav" aria-label="グローバルナビゲーション">
+        <button class="site-nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="global-nav-list">メニュー</button>
+        <ul class="site-nav__list" id="global-nav-list" data-nav-list>
+          <li><a class="site-nav__link" href="index.html">トップ</a></li>
+          <li><a class="site-nav__link" href="works/index.html">作品一覧</a></li>
+          <li><a class="site-nav__link" href="process.html" aria-current="page">更新フロー</a></li>
+          <li><a class="site-nav__link" href="checklist.html">チェックリスト</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="l-container">
+    <nav class="breadcrumb" aria-label="パンくず">
+      <ol class="breadcrumb__list">
+        <li class="breadcrumb__item"><a href="index.html">ホーム</a></li>
+        <li class="breadcrumb__item" aria-current="page">更新フロー</li>
+      </ol>
+    </nav>
+
+    <section class="p-section">
+      <h1 class="p-page-title">更新フロー・報告テンプレ・コミュニケーション</h1>
+      <p class="p-lead">運用担当として重要なのは「速く作る」だけでなく、「確実に伝わる」こと。以下の流れで、依頼者・確認者・実装者の認識を揃えて進行します。</p>
+
+      <ol class="p-numbered">
+        <li><strong>依頼受付：</strong>目的、対象URL、期限、素材有無、承認者をヒアリング。</li>
+        <li><strong>実装：</strong>既存コンポーネント優先で更新し、差分を最小化。</li>
+        <li><strong>セルフチェック：</strong>表示・リンク・文言・アクセシビリティを確認。</li>
+        <li><strong>報告：</strong>変更内容、確認環境、未対応事項、次アクションを定型フォーマットで共有。</li>
+      </ol>
+    </section>
+
+    <section class="p-section" aria-labelledby="report-template-heading">
+      <h2 id="report-template-heading" class="p-card__title">報告テンプレート（例）</h2>
+      <div class="p-card">
+        <p class="p-card__meta">件名：◯◯ページ更新のご報告（YYYY/MM/DD）</p>
+        <ul class="p-list">
+          <li>対応概要：バナー差し替え、文言修正（3箇所）、リンク先変更（1箇所）</li>
+          <li>確認環境：Chrome 最新 / Edge 最新 / iPhone Safari</li>
+          <li>確認結果：表示崩れ・リンク不備なし</li>
+          <li>補足：次回更新で画像軽量化提案あり（工数30分想定）</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="communication-heading">
+      <h2 id="communication-heading" class="p-card__title">コミュニケーションで意識すること</h2>
+      <ul class="p-list">
+        <li>依頼時点で「確定事項 / 未確定事項」を分ける。</li>
+        <li>実装前に影響範囲を短く共有し、承認ポイントを明確にする。</li>
+        <li>報告では完了だけでなく、次回改善の提案を1つ添える。</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="l-container">
+      <p>© 2026 Web更新運用ポートフォリオ / 連絡先: sample@example.com</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

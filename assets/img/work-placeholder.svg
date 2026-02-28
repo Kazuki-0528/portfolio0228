@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">制作実績ダミー画像</title>
+  <desc id="desc">ポートフォリオ案件のサムネイルを想定したプレースホルダー画像</desc>
+  <rect width="960" height="540" fill="#d9e8f5"/>
+  <rect x="60" y="60" width="840" height="420" rx="24" fill="#ffffff" stroke="#0f4c81" stroke-width="4"/>
+  <text x="480" y="255" text-anchor="middle" font-size="44" fill="#0f4c81" font-family="Arial, sans-serif">WORK SAMPLE</text>
+  <text x="480" y="310" text-anchor="middle" font-size="26" fill="#4b5563" font-family="Arial, sans-serif">更新運用サポート案件</text>
+</svg>

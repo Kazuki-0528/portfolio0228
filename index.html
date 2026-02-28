@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>トップ | HTMLコーディング／Web更新サポート ポートフォリオ</title>
+  <meta name="description" content="更新運用の即戦力として、依頼整理から実装・検証・報告まで回せるフロントエンドコーダーのポートフォリオです。">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="l-container site-header__inner">
+      <a class="site-logo" href="index.html">更新運用ポートフォリオ</a>
+      <nav class="site-nav" aria-label="グローバルナビゲーション">
+        <button class="site-nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="global-nav-list">メニュー</button>
+        <ul class="site-nav__list" id="global-nav-list" data-nav-list>
+          <li><a class="site-nav__link" href="index.html" aria-current="page">トップ</a></li>
+          <li><a class="site-nav__link" href="works/index.html">作品一覧</a></li>
+          <li><a class="site-nav__link" href="process.html">更新フロー</a></li>
+          <li><a class="site-nav__link" href="checklist.html">チェックリスト</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="l-container">
+    <nav class="breadcrumb" aria-label="パンくず">
+      <ol class="breadcrumb__list">
+        <li class="breadcrumb__item"><a href="index.html">ホーム</a></li>
+        <li class="breadcrumb__item" aria-current="page">トップ</li>
+      </ol>
+    </nav>
+
+    <section class="p-section">
+      <h1 class="p-page-title">HTMLコーディング／Web更新サポート<br>面接用ポートフォリオ</h1>
+      <p class="p-lead">「更新依頼の整理 → 実装 → ブラウザチェック → 報告」までを実務スピードで回せることを重視して構成しています。デザイン再現だけでなく、既存サイトの運用保守で求められる再現性と説明責任を可視化しました。</p>
+      <div class="p-grid p-grid--3col">
+        <article class="p-card">
+          <h2 class="p-card__title">依頼整理</h2>
+          <p class="p-card__meta">変更点を粒度ごとに分解し、作業範囲・影響範囲・確認観点を明文化して手戻りを防ぎます。</p>
+        </article>
+        <article class="p-card">
+          <h2 class="p-card__title">正確な実装</h2>
+          <p class="p-card__meta">セマンティックHTMLと保守しやすいCSS設計を前提に、既存ルールへ合わせた更新を行います。</p>
+        </article>
+        <article class="p-card">
+          <h2 class="p-card__title">報告品質</h2>
+          <p class="p-card__meta">実施内容・確認環境・差分・懸念点を定型化し、誰が見ても追える報告を行います。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="p-section" aria-labelledby="top-works-heading">
+      <h2 id="top-works-heading" class="p-page-title">主な掲載コンテンツ</h2>
+      <ul class="p-list">
+        <li><a href="works/index.html">作品一覧</a>：更新運用を想定した案件サマリーを掲載。</li>
+        <li><a href="works/mock-maintenance.html">既存サイト更新サポート案件</a>：差し替え・追記・導線調整の実例。</li>
+        <li><a href="works/lp-markup.html">LPマークアップ案件</a>：デザイン指示ベースでの短納期対応例。</li>
+        <li><a href="process.html">更新フロー</a>：依頼受付から報告までの運用手順とテンプレート。</li>
+        <li><a href="checklist.html">チェックリスト</a>：ブラウザ確認・アクセシビリティ確認項目。</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="l-container">
+      <p>© 2026 Web更新運用ポートフォリオ / 連絡先: sample@example.com</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
