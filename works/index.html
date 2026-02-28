@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>作品一覧 | HTMLコーディング／Web更新サポート ポートフォリオ</title>
+  <meta name="description" content="更新運用に直結するWeb制作案件の一覧ページ。既存サイト更新支援とLPマークアップの実務例を掲載。">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="l-container site-header__inner">
+      <a class="site-logo" href="../index.html">更新運用ポートフォリオ</a>
+      <nav class="site-nav" aria-label="グローバルナビゲーション">
+        <button class="site-nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="global-nav-list">メニュー</button>
+        <ul class="site-nav__list" id="global-nav-list" data-nav-list>
+          <li><a class="site-nav__link" href="../index.html">トップ</a></li>
+          <li><a class="site-nav__link" href="index.html" aria-current="page">作品一覧</a></li>
+          <li><a class="site-nav__link" href="../process.html">更新フロー</a></li>
+          <li><a class="site-nav__link" href="../checklist.html">チェックリスト</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="l-container">
+    <nav class="breadcrumb" aria-label="パンくず">
+      <ol class="breadcrumb__list">
+        <li class="breadcrumb__item"><a href="../index.html">ホーム</a></li>
+        <li class="breadcrumb__item" aria-current="page">作品一覧</li>
+      </ol>
+    </nav>
+
+    <section class="p-section">
+      <h1 class="p-page-title">作品一覧</h1>
+      <p class="p-lead">「運用現場でそのまま使えるか」を軸に、更新案件の進め方・実装判断・報告スタイルまで含めて紹介しています。</p>
+      <div class="p-grid p-grid--2col">
+        <article class="p-card">
+          <img src="../assets/img/work-placeholder.svg" alt="既存サイト更新サポート案件のダミーサムネイル">
+          <h2 class="p-card__title"><a href="mock-maintenance.html">既存サイト更新サポート案件</a></h2>
+          <p class="p-card__meta">ニュース更新、バナー差し替え、文言修正、軽微なレイアウト調整を定常運用で対応した想定案件。</p>
+        </article>
+        <article class="p-card">
+          <img src="../assets/img/work-placeholder.svg" alt="LPマークアップ案件のダミーサムネイル">
+          <h2 class="p-card__title"><a href="lp-markup.html">デザイン指示からのLPマークアップ案件</a></h2>
+          <p class="p-card__meta">短納期での1ページ実装。構造設計、コンポーネント化、最終チェックまでを一貫対応。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="l-container">
+      <p>© 2026 Web更新運用ポートフォリオ / 連絡先: sample@example.com</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+</body>
+</html>
